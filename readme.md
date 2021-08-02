@@ -183,7 +183,7 @@ the same as often referred to in the mostly OO-based examples of layered archite
 practicing FP w/ DDD for multiple years, I've come to a system pretty similar to Clean
 Architecture -
 
-![Clean Architecture](./clean-archiecture.png 'Clean Architecture')
+![Clean Architecture](./clean-archiecture.png)
 
 Listed from "bottom" to the "top" the layers are as following
 
