@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "ac10709f-c531-4019-9bc2-eea59261c72d",
+		"name": "Email Service Challenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Send Email",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"from\": \"{{FROM_EMAIL}}\",\n    \"from_name\": \"{{FROM_NAME}}\",\n    \"to\": \"{{TO_EMAIL}}\",\n    \"to_name\": \"{{TO_NAME}}\",\n    \"subject\": \"{{SUBJECT}}\",\n    \"body\": \"<h1>Your Bill</h1><p>$10</p>\"\n}"
+				},
+				"url": {
+					"raw": "{{EMAIL_ORIGIN}}/email",
+					"host": [
+						"{{EMAIL_ORIGIN}}"
+					],
+					"path": [
+						"email"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
