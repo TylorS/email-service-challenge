@@ -195,7 +195,7 @@ Listed from "bottom" to the "top" the layers are as following
   - Responsible for algorithms and logic
   - Unit-Tested
   - Utilizes
-    [Dependency Investion](https://javascript.plainenglish.io/decoupling-code-in-javascript-with-the-dependency-inversion-principle-6d23342b4aaa)
+    [Dependency Inversion](https://javascript.plainenglish.io/decoupling-code-in-javascript-with-the-dependency-inversion-principle-6d23342b4aaa)
     to lift side-effects away from the core logic, deferring such choices to the Infrastructure
 - Infrastructure
   - Responsible for all side-effects, HTTP, persistence, etc
